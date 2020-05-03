@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Contraseña</string>
+    <string name="btn_session">Iniciar Sesión</string>
+    <string name="hint_nombre">Nombre Dueño</string>
+    <string name="hint_apellido">Apellido Dueño</string>
+    <string name="hint_nomMascota">Nombre Mascota</string>
+    <string name="hint_edadMascota">Edad Mascota</string>
+    <string name="txt_registro">Registrar</string>
+    <string name="txt_resumen">Registro realizado correctamente</string>
+    <string name="detalleReg">Detalle de registro</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".RegistroMascota">
+
+    <RelativeLayout
+        android:id="@+id/segundoRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen_Registro"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/registro"
+            android:layout_alignParentEnd="true"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toStartOf="@id/imagen_Registro"
+            android:layout_alignTop="@id/imagen_Registro"
+            android:layout_alignBottom="@id/imagen_Registro"
+            android:gravity="center_vertical">
+
+            <EditText
+            android:id="@+id/nombreDueño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            />
+
+            <EditText
+                android:id="@+id/apellidoDueño"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_apellido"
+            />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/segundoRelative">
+
+        <EditText
+            android:id="@+id/nombreMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nomMascota"
+        />
+        <EditText
+            android:id="@+id/edadMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_edadMascota"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registro"
+        android:background="@color/btn_background"
+        android:textColor="@color/btn_txtcolor"
+        android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

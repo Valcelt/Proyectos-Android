@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registro Empleados</string>
+    <string name="name_txt">Nombre</string>
+    <string name="lastname_txt">Apellido</string>
+    <string name="age_text">Edad</string>
+    <string name="sex_text">Sexo</string>
+    <string name="description_txt">Aplicacion de registro de usuarios</string>
+    <string name="btn_txt">Registrar</string>
+</resources>

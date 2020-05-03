@@ -1,0 +1,2 @@
+rootProject.name='Doble de un Numero'
+include ':app'

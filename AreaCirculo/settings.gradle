@@ -1,0 +1,2 @@
+rootProject.name='Area Circulo'
+include ':app'
